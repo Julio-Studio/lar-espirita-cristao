@@ -1,0 +1,57 @@
+baseURL = 'https://lec.pages.dev/'
+languageCode = 'pt-br'
+title = 'Lar Espírita Cristão'
+theme = 'hugo-theme-cleanwhite'
+hasCoreEdge = true
+enableEmoji = true # Habilita emojis nativos do Hugo como :peace_symbol:
+
+# Permite que você use HTML dentro dos arquivos Markdown (essencial para mapas/botões)
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true 
+
+[params]
+  header_image = "img/home-bg.jpg"
+  title = "Lar Espírita Cristão"
+  slogan = "Fora da Caridade não há Salvação"
+  description = "Evangelho, acolhimento e consolação à luz da Doutrina Espírita."
+  
+  # Aparência e Sidebar
+  sidebar = true
+  sidebar_about_description = "Instituição dedicada ao estudo e à prática da caridade cristã. 🙏"
+  featured_tags = true
+  featured_condition_size = 1
+
+  # --- ESPAÇO PARA IMPLEMENTOS (Contador, Analytics, etc.) ---
+ [params.csp]
+  enable = true
+  # 'self' significa imagens do próprio site
+  img-src = " 'self' https://hits.seeyoufarm.com https://img.shields.io https://visitor-badge.laobi.icu " 
+
+  # Redes Sociais e Contato
+  # whatsapp = "5511999999999"
+  # facebook = "perfil"
+
+[[menu.main]]
+  name = "Início 🏠"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Atividades 🗓️"
+  url = "/atividades/"
+  weight = 2
+
+[[menu.main]]
+  name = "Estudos 📖"
+  url = "/post/"
+  weight = 3
+
+[[menu.main]]
+  name = "Como Ajudar ❤️"
+  url = "/ajuda/"
+  weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -3,16 +3,15 @@ languageCode = 'pt-br'
 title = 'Lar Espírita Cristão'
 theme = 'hugo-theme-cleanwhite'
 hasCoreEdge = true
-enableEmoji = true # Habilita emojis nativos do Hugo como :peace_symbol:
+enableEmoji = true
 
-# Permite que se use HTML dentro dos arquivos Markdown (essencial para mapas/botões)
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true 
 
 [params]
-  header_image = "img/home-bg.jpg"
+  header_image = "images/foto-fachada.jpg"
   title = "Lar Espírita Cristão"
   slogan = "Fora da Caridade não há Salvação"
   description = "Evangelho, acolhimento e consolação à luz da Doutrina Espírita."
@@ -24,15 +23,9 @@ enableEmoji = true # Habilita emojis nativos do Hugo como :peace_symbol:
   featured_tags = true
   featured_condition_size = 1
 
-  # --- ESPAÇO PARA IMPLEMENTOS (Contador, Analytics, etc.) ---
- [params.csp]
+  [params.csp]
   enable = true
-  # 'self' significa imagens do próprio site
-  img-src = " 'self' https://hits.seeyoufarm.com https://img.shields.io https://visitor-badge.laobi.icu " 
-
-  # Redes Sociais e Contato
-  # whatsapp = "5511999999999"
-  # facebook = "perfil"
+  img-src = "'self' https://hits.seeyoufarm.com https://img.shields.io https://visitor-badge.laobi.icu" 
 
 [[menu.main]]
   name = "Início 🏠"

@@ -3,7 +3,7 @@ title: "Agenda de Horários para o Lar Espírita Cristão"
 date: 2025-12-26
 categories: 
   - "agenda"
-  - "atividades"
+type: "post"
 ---
 
 ## Horários de Atividades - Lar Espírita Cristão e Casa do Pão Chico Xavier

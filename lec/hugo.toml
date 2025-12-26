@@ -16,6 +16,7 @@ enableEmoji = true # Habilita emojis nativos do Hugo como :peace_symbol:
   title = "Lar Espírita Cristão"
   slogan = "Fora da Caridade não há Salvação"
   description = "Evangelho, acolhimento e consolação à luz da Doutrina Espírita."
+  mainSections = ["post", "agenda", "eventos"]
   
   # Aparência e Sidebar
   sidebar = true

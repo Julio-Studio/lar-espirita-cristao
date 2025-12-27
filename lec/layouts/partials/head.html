@@ -1,1 +1,27 @@
-<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+<style>
+/* 1. Sombra no título do topo */
+.intro-header .site-heading h1, 
+.intro-header .site-heading .subheading {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9) !important;
+}
+
+/* 2. Cor de fundo da página (Bege) */
+body, .container, .row, #maincontainer { 
+    background-color: #FDFCF0 !important; 
+}
+
+/* 3. Cards dos links/posts */
+.post-preview {
+    background-color: #F5F5DC !important;
+    padding: 25px !important;
+    margin-bottom: 25px !important;
+    border-radius: 10px !important;
+    border: 1px solid #E2E2C0 !important;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05) !important;
+}
+
+/* 4. Hover nos cards */
+.post-preview:hover {
+    background-color: #EFEFCE !important;
+}
+</style>

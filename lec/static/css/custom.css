@@ -11,27 +11,30 @@
     background-blend-mode: overlay;
 }
 
-/* 1. Cor de fundo da página inteira (Bege muito claro) */
-body {
-    background-color: #FDFCF0;
+/* 1. Cor de fundo (ajustado para cobrir as camadas do tema) */
+body, 
+.container, 
+.row,
+#maincontainer { 
+    background-color: #FDFCF0 !important; 
 }
 
 /* 2. Estilo dos cards/links na página inicial */
 .post-preview {
-    background-color: #F5F5DC; /* Bege um pouco mais escuro */
+    background-color: #F5F5DC !important; /* Bege um pouco mais escuro */
     padding: 20px;
-    margin-bottom: 10px;
-    border-radius: 8px; /* Bordas arredondadas para suavizar */
+    margin-bottom: 20px;
+    border-radius: 8px;
     transition: background 0.3s ease;
-    border: 1px solid #E2E2C0; /* Uma bordinha fina para dar profundidade */
+    border: 1px solid #E2E2C0;
 }
 
-/* 3. Efeito ao passar o mouse sobre o link */
+/* 3. Efeito ao passar o mouse */
 .post-preview:hover {
-    background-color: #EFEFCE; /* Escurece um tiquinho ao passar o mouse */
+    background-color: #EFEFCE !important;
 }
 
-/* 4. Ajuste para que o texto não fique colado nas bordas */
+/* 4. Ajuste de texto */
 .post-preview > a {
     text-decoration: none !important;
 }

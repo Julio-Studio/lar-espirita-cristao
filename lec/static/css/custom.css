@@ -10,3 +10,28 @@
     background-color: rgba(0, 0, 0, 0.3); /* Escurece 30% da imagem */
     background-blend-mode: overlay;
 }
+
+/* 1. Cor de fundo da página inteira (Bege muito claro) */
+body {
+    background-color: #FDFCF0;
+}
+
+/* 2. Estilo dos cards/links na página inicial */
+.post-preview {
+    background-color: #F5F5DC; /* Bege um pouco mais escuro */
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px; /* Bordas arredondadas para suavizar */
+    transition: background 0.3s ease;
+    border: 1px solid #E2E2C0; /* Uma bordinha fina para dar profundidade */
+}
+
+/* 3. Efeito ao passar o mouse sobre o link */
+.post-preview:hover {
+    background-color: #EFEFCE; /* Escurece um tiquinho ao passar o mouse */
+}
+
+/* 4. Ajuste para que o texto não fique colado nas bordas */
+.post-preview > a {
+    text-decoration: none !important;
+}

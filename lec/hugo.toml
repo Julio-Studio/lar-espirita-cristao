@@ -13,11 +13,10 @@ theme = 'hugo-theme-cleanwhite'
   title = "Lar Espírita Cristão"
   slogan = "Fora da Caridade não há Salvação"
   description = "Evangelho, acolhimento e consolação à luz da Doutrina Espírita."
-  mainSections = ["post", "agenda", "eventos"]
+  mainSections = ["post", "agenda"]
   sidebar = true
   sidebar_about_description = "Instituição dedicada ao estudo e à prática da caridade cristã. 🙏"
-  custom_css = ["css/custom.css"]
-
+  
 [[menu.main]]
   name = "Início 🏠"
   url = "/"

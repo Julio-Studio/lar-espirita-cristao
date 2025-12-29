@@ -1,6 +1,7 @@
 ---
 title: "Agenda de Horários para o Lar Espírita Cristão"
 date: 2025-12-26
+weight: 1
 categories: 
   - "agenda"
 type: "post"

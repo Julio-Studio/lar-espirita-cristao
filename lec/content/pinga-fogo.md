@@ -6,7 +6,7 @@ weight: 4
 
 # Chico Xavier no Pinga-Fogo (1971): Um Marco Histórico
 
-![Chico no Pinga-Fogo 1](/lec/docs/images/pinga-um-224x168.jpg)
+![Chico no Pinga-Fogo 1](/images/pinga-um-224x168.jpg)
 
 O programa **Pinga-Fogo**, transmitido pela extinta TV Tupi em 1971, tornou-se um dos momentos mais memoráveis da história do Espiritismo. Chico Xavier respondeu a perguntas sobre diversos temas, à luz do Evangelho de Jesus, com sua habitual serenidade e sabedoria.
 

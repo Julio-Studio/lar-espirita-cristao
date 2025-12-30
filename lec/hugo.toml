@@ -7,6 +7,7 @@ theme = "mainroad"
   pagerSize = 5
 
 [params]
+  mainSections = ["post"]  # Isso força a listar o conteúdo da pasta 'post' na home
   description = "Evangelho, acolhimento e consolação em Itatiba"
   subtitle = "Fora da Caridade não há Salvação"
   # O Mainroad usa essa cor vermelha padrão, combina com 'Cristão'
@@ -38,3 +39,8 @@ theme = "mainroad"
   name = "Pinga Fogo"
   url = "/pinga-fogo/"
   weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

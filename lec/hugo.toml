@@ -27,10 +27,10 @@ theme = "mainroad"
   url = "/"
   weight = 1
 
-[[menu.main]]
-  name = "História"
-  url = "/historia/"
-  weight = 2
+# [[menu.main]]
+# name = "História"
+# url = "/historia/"
+# weight = 2
 
 # removi o agenda
 

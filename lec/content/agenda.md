@@ -16,8 +16,7 @@ Ocorre presencialmente na **Casa do Pão Chico Xavier**.
 #### 💻 Alternativa Online
 Se não puder comparecer presencialmente, acompanhe nossas transmissões:
 
-[▶ Assistir no YouTube](https://www.youtube.com/@larespiritacristao5786) | [f Acompanhar no Facebook](https://www.facebook.com/lecitatiba/)
-{: style="font-size: 1.2em; font-weight: bold; color: #e22d30;"}
+<a href="https://www.youtube.com/@larespiritacristao5786" target="_blank" style="font-size: 1.2em; font-weight: bold; color: #e22d30;">Assistir no YouTube</a> | <a href="https://www.facebook.com/lecitatiba" target="_blank" style="font-size: 1.2em; font-weight: bold; color: #e22d30;">Acompanhar no Facebook</a>
 
 ---
 

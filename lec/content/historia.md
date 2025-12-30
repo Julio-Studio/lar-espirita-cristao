@@ -1,5 +1,5 @@
 ---
-title: "Nossa História"
+title: "História"
 date: 2025-12-30
 description: "Conheça a trajetória do Lar Espírita Cristão e da Casa do Pão Chico Xavier em Itatiba"
 menu: "main"

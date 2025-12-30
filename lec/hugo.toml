@@ -19,6 +19,9 @@ theme = "mainroad"
     # Adicionamos 'agenda_custom' que criaremos abaixo
     widgets = ["search", "recent", "agenda_custom", "categories"]
 
+  [params.footer]
+    copyrightText = "Lar Espírita Cristão"
+
 [[menu.main]]
   name = "Início"
   url = "/"

@@ -1,19 +1,17 @@
-<hr>
-<footer>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                
-                <div style="text-align: center; margin-bottom: 20px;">
-                    <img src="https://visitor-badge.laobi.icu/badge?page_id=julio-studio.lar-espirita&left_text=Visitas&right_color=blue" alt="Contador de Visitas">
-                </div>
+<footer class="footer">
+	<div class="container footer__container flex">
+		{{ with .Site.Params.footer.copyrightText }}
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{ . }}.
+			<span class="footer__copyright-credits">Gerado com <a href="https://gohugo.io/" rel="nofollow noopener" target="_blank">Hugo</a>.</span>
+		</div>
+		{{ end }}
+	</div>
 
-                <p class="copyright text-muted">
-                    Copyright &copy; {{ .Site.Title }} {{ .Date.Format "2006" }}
-                    <br>
-                    Estúdio <a href="https://github.com/Julio-Studio">Julio-Studio</a>
-                </p>
-            </div>
-        </div>
+    <div style="text-align:center; margin-top: 10px; padding-bottom: 20px;">
+        <img src="https://visitor-badge.laobi.icu/badge?page_id=julio-studio.lar-espirita&left_text=Visitas&right_color=blue" alt="Contador">
+        <p style="font-size: 0.85em; color: #666; margin-top: 5px;">
+            Estúdio <a href="https://github.com/Julio-Studio" target="_blank" style="color: #e22d30; font-weight: bold; text-decoration: none;">Julio-Studio</a>
+        </p>
     </div>
 </footer>

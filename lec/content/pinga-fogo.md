@@ -1,7 +1,7 @@
 ---
 title: "Pinga Fogo"
-menu: "main"
-weight: 4
+# menu: "main"
+# weight: 4
 ---
 
 # Chico Xavier no Pinga-Fogo (1971): Um Marco Histórico

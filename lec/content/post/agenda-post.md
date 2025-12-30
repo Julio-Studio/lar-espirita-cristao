@@ -1,5 +1,5 @@
 ---
-title: "Agenda de Atividades"
+title: "Agenda de Atividades 2026"
 date: 2025-12-30T08:00:00-03:00
 draft: false
 ---

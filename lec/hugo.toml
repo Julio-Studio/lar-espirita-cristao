@@ -36,7 +36,7 @@ theme = "mainroad"
 # removi o agenda
 
 [[menu.main]]
-  name = "Pinga Fogo"
+  name = "Pinga-Fogo"
   url = "/pinga-fogo/"
   weight = 4
 

@@ -44,10 +44,10 @@ Acima de tudo, a missão kardequiana é um mandato cristocêntrico. Kardec foi o
 
 Para aprofundar seu conhecimento com fontes seguras e históricas:
 
-* **[Allan Kardec na Obra de Chico Xavier - Carlos Baccelli (Documentário FEBtv)](https://youtu.be/IMfeYpBtEm8?si=Sg3dSVoL_v-h-wgE)** - 10 princípios básicos da codificação Kardequiana na obra Xavieriana.
-* **[Geraldo Lemos Neto "A volta de Allan Kardec em Chico Xavier"](https://youtu.be/xEoGDmKfeSw?si=8MDSkP8btvOo77AM)** - Chico Xavier é a Reencarnação de Allan Kardec.
-* **[A Missão de Canuto de Abreu.](https://youtu.be/onjTRR8RlAg?si=Dr8vCuJGBSXeFAcY)** - A história do pesquisador que, orientado por cartas de Chico Xavier e Emmanuel, resgatou na França um tesouro: centenas de cartas inéditas de Allan Kardec. Revelado em seu acervo pessoal.
-* **[Pinga-Fogo: Chico Xavier fala sobre a Codificação](https://www.youtube.com/watch?v=P2LshV_yqX4)** - Trechos históricos onde Chico explica a importância da base kardequiana.
+* **[Allan Kardec na Obra de Chico Xavier - Carlos Baccelli](https://www.youtube.com/watch?v=IMfeYpBtEm8)** - 10 princípios básicos da codificação Kardequiana na obra Xavieriana.
+* **[Geraldo Lemos Neto "A volta de Allan Kardec em Chico Xavier"](https://www.youtube.com/watch?v=xEoGDmKfeSw)** - Chico Xavier é a Reencarnação de Allan Kardec.
+* **[A Missão de Canuto de Abreu.](https://www.youtube.com/watch?v=onjTRR8RlAg)** - A história do pesquisador que, orientado por cartas de Chico Xavier e Emmanuel, resgatou na França um tesouro: centenas de cartas inéditas de Allan Kardec. Revelado em seu acervo pessoal.
+* **[Pinga-Fogo: Chico Xavier fala sobre a Codificação](https://www.youtube.com/watch?v=P2LshV_yqX4)** - O marco histórico da divulgação espírita-cristã no Brasil.
 
 ---
 

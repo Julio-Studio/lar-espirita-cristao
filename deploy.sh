@@ -1,53 +1,65 @@
 #!/bin/bash
 
 # Author: Julio Prata
-# Created: 01 dez 2025
-# Last Modified: 08 dez 2025
-# Version: 1.2
-# Description: Script de deploy híbrido (Sites Hugo e Repositórios comuns)
+# Version: 1.3
+# Description: Script de deploy híbrido otimizado para Cloudflare Pages (Pasta docs)
 
-# Cores
+# Cores para feedback visual
 GREEN='\033[0;32m'
 CYAN='\033[0;36m'
 YELLOW='\033[1;33m'
 RED='\033[0;31m'
-NC='\033[0m'
+NC='\033[0m' # Sem cor
 
 PROJECT_NAME=$(basename "$PWD")
 
 echo -e "${CYAN}--- Iniciando Deploy para: $PROJECT_NAME ---${NC}"
 
-msg="Update $(date)"
-if [ $# -eq 1 ]
-  then msg="$1"
+# Define a mensagem de commit (Usa o argumento $1 ou a data atual)
+msg="Update $(date +'%d/%m/%Y %H:%M')"
+if [ $# -eq 1 ]; then
+  msg="$1"
 fi
 
-# VERIFICAÇÃO
-# Procura por hugo.toml ou config.toml para saber se é um site Hugo
+# 1. VERIFICAÇÃO DE AMBIENTE HUGO
 if [ -f "hugo.toml" ] || [ -f "config.toml" ]; then
-    echo -e "${GREEN}--> Site Hugo detectado. Iniciando build...${NC}"
+    echo -e "${GREEN}--> Projeto Hugo detectado. Iniciando build otimizado...${NC}"
     
-    # Tenta construir o site
+    # --minify: comprime HTML/CSS/JS para performance máxima
+    # --cleanDestinationDir: remove lixo de builds anteriores na pasta docs
+    # -d docs: garante que o destino seja sempre a pasta lida pela Cloudflare
     if hugo --minify --cleanDestinationDir -d docs; then
-        echo -e "${GREEN}--> Build OK! Preparando Git...${NC}"
+        echo -e "${GREEN}--> Build concluído com sucesso!${NC}"
+        
+        # GARANTIA: Força o Git a monitorar a pasta docs (evita erro de 'nothing to commit')
+        git add docs/
     else
-        echo -e "${RED}--> ERRO: Falha no Hugo. Deploy cancelado.${NC}"
+        echo -e "${RED}--> ERRO: Falha crítica no build do Hugo. Deploy cancelado.${NC}"
         exit 1
     fi
 else
-    # Se não for site Hugo (caso da pasta bizumatica-tools)
-    echo -e "${YELLOW}--> Nenhum arquivo Hugo detectado. Pulando build (modo repositório simples).${NC}"
+    echo -e "${YELLOW}--> Projeto comum detectado. Pulando etapa de build Hugo.${NC}"
 fi
 
-# PARTE DO GIT (Comum para todos)
+# 2. VERIFICAÇÃO DE MUDANÇAS NO GIT
 if [[ -z $(git status -s) ]]; then
-    echo -e "${CYAN}--> Nada para commitar. O diretório está limpo.${NC}"
+    echo -e "${CYAN}--> O repositório já está atualizado. Nada para enviar.${NC}"
     exit 0
 fi
 
-echo -e "${GREEN}--> Enviando para o GitHub...${NC}"
-git add .
-git commit -m "$msg ($PROJECT_NAME)"
-git push origin main
+# 3. PROCESSO DE PUSH
+echo -e "${GREEN}--> Sincronizando alterações com o GitLab...${NC}"
 
-echo -e "${CYAN}--- Deploy do $PROJECT_NAME concluído com sucesso! ---${NC}"
+# Adiciona todas as mudanças (arquivos novos, alterados e deletados)
+git add -A
+
+# Commit com a mensagem e o nome do projeto para facilitar o histórico
+git commit -m "$msg | Repositório: $PROJECT_NAME"
+
+# Push garantindo a branch main
+if git push origin main; then
+    echo -e "${CYAN}--- Deploy de [$PROJECT_NAME] concluído com sucesso! ---${NC}"
+else
+    echo -e "${RED}--> ERRO: Falha ao enviar para o GitLab. Verifique sua conexão ou permissões.${NC}"
+    exit 1
+fi

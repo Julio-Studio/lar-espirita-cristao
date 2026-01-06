@@ -1,1 +1,0 @@
-/home/tata-guto/Julio-Studio/Bizumatica/bizumatica-tools/deploy.sh

@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://lec-itatiba.pages.dev/sitemap.xml
-Sitemap: https://lec-itatiba.pages.dev/sitemap_index.xml

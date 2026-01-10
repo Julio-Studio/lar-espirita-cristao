@@ -33,10 +33,10 @@ Esses e muitos outros episódios que nos comovem e inspiram profundas reflexões
 
 ### Links Úteis e Parceiros:
 
-* **Livraria Espírita Edições Pedro e Paulo** <a href="https://www.leepplojavirtual.com.br/" target="_blank">Acesse o Site</a>
+* **[Livraria Espírita Edições Pedro e Paulo](https://www.leepplojavirtual.com.br/)**
 
-* **Vinha de Luz Editora** <a href="http://www.vinhadeluz.com.br/site/produtos.php/" target="_blank">Acesse o Site</a>
+* **[Vinha de Luz Editora](http://www.vinhadeluz.com.br/site/produtos.php/)**
 
-* **IDE Livraria** <a href="https://www.idelivraria.com.br/" target="_blank">Acesse o Site</a>
+* **[IDE Livraria](https://www.idelivraria.com.br/)**
 
-* **Clube do Livro Espírita Padrinhos do Dr. Inácio** <a href="http://wa.me/553499934873" target="_blank">Fale conosco pelo WhatsApp</a>
+* **[Clube do Livro Espírita Padrinhos do Dr. Inácio](http://wa.me/553499934873)**

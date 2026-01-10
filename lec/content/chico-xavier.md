@@ -46,7 +46,7 @@ Para aprofundar o estudo sobre a vida de Chico Xavier, selecionamos conteúdos e
 
 * **[Hilárias e Sábias Lições de Chico Xavier com Carlos Baccelli](https://www.youtube.com/live/kotMQbExGiM?si=P6WTABeaHzhGkTKK)** - Baccelli é médium espírita, fundador do Lar Espírita Pedro e Paulo em Uberaba-MG. É reconhecido como o maior biógrafo de Chico Xavier.
 * **[Drª. Marlene Nobre. A convivência com Chico Xavier](https://www.youtube.com/watch?v=1kfuIidocrQ)** - Entrevista realizada no dia 12 de dezembro de 2014.
-* **[Chico Xavier no Programa Pinga-Fogo (Tupi)](https://lec-itatiba.pages.dev/pinga-fogo/)** - O marco histórico da divulgação espírita-cristã no Brasil.
+* **[Chico Xavier no Programa Pinga-Fogo (Tupi)](https://lecitatiba.com.br/pinga-fogo/ )** - O marco histórico da divulgação espírita-cristã no Brasil.
 
 ---
 *Este artigo é uma contribuição do **Lar Espírita Cristão - Itatiba (LEC)** para a divulgação doutrinária.*

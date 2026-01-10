@@ -12,7 +12,8 @@ publishDir = "docs"
   description = "Evangelho, acolhimento e consolação em Itatiba"
   subtitle = "Fora da Caridade não há Salvação"
   # O Mainroad usa essa cor vermelha padrão
-  highlightColor = "#e22d30" 
+  highlightColor = "#e22d30"
+  customCSS = ["css/custom.css"] 
 
   [params.sidebar]
     home = "right"
